@@ -1,0 +1,4 @@
+seq-cifar10:
+  1000:
+    lr: 0.1
+    model: er_ipm

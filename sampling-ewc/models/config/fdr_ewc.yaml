@@ -1,0 +1,8 @@
+seq-cifar10:
+  1000:
+    alpha: 1.0
+    e_lambda: 10
+    gamma: 1
+    lr: 0.03
+    model: fdr_ewc
+    n_epochs: 50

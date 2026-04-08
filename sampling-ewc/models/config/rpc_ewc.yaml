@@ -1,0 +1,9 @@
+seq-cifar10:
+  1000:
+    batch_size: 128
+    lr: 0.001
+    model: rpc_ewc
+    n_epochs: 10
+    optimizer: adam
+    e_lambda: 10
+    gamma: 1

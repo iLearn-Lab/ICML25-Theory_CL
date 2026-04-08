@@ -1,0 +1,9 @@
+seq-cifar10:
+  1000:
+    e_lambda: 10
+    gamma: 1
+    batch_size: 10
+    gss_minibatch_size: 10
+    lr: 0.05
+    model: gss_ewc
+    n_epochs: 1

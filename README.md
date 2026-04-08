@@ -23,7 +23,9 @@
 
 - [Introduction](#-introduction)
 - [Main Results](#-main-results)
+- [Usage](#usage)
 - [Citation](#citation)
+- [Related Project](#related-project)
 - [License](#-license)
 
 ---
@@ -41,6 +43,11 @@ Welcome to the official repository for **Feature Learning Theory in CL**. This p
 Acute and mildly obtuse angles lead to benign forgetting, whereas larger obtuse angles result in harmful forgetting. Moreover, a mid-angle sampling strategy outperforms existing sampling methods and can be seamlessly integrated into various replay-based frameworks.
 
 ---
+## Usage
+
+You can employ both [synthetic](.\synthetic) and [real-world](.\real-world) datasets to validate our theoretical results. In addition, the effectiveness of mid-angle sampling and EWC-Replay can be further examined through the [sampling-ewc](.\sampling-ewc).
+
+---
 
 ## Citation
 
@@ -54,6 +61,11 @@ If you find this work useful in your research, please cite our paper:
   year={2025}
 }
 ```
+
+---
+
+## Related Project
+[Mammoth - A PyTorch Framework for Benchmarking Continual Learning](https://github.com/aimagelab/mammoth)
 
 ---
 
